@@ -1,0 +1,6 @@
+FACADE PATTERN - Provide a unified interface to a set of interfaces in a subsystem. Façade defines a higher-level interface that makes the subsystem easier to use.
+	Ejemplo: Se usa mucho para servicios web; encapsular, en una sola llamada /respuesta desde el cliente, varias llamadas "internas" en el facade a los servicios más pequeños que se necesitan para el response.
+
+SINGLETON PATTERN - patrón de diseño diseñado para restringir la creación de objetos pertenecientes a una clase o el valor de un tipo a un único objeto (una sola instancia creada en memoria). ANTI-SOLID.
+
+BRIDGE PATTERN - El patrón Bridge, también conocido como Handle/Body, es una técnica usada en programación para desacoplar una abstracción de su implementación, de manera que ambas puedan ser modificadas independientemente sin necesidad de alterar por ello la otra.
