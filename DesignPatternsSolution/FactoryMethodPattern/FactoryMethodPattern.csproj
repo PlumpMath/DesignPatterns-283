@@ -45,6 +45,10 @@
   <ItemGroup>
     <Compile Include="Factory\ConcreteCreatorA.cs" />
     <Compile Include="Factory\ConcreteCreatorB.cs" />
+    <Compile Include="SolidCompliantFactory\ISolidCompliantFactory.cs" />
+    <Compile Include="SolidCompliantFactory\ProductACreator.cs" />
+    <Compile Include="SolidCompliantFactory\ProductBCreator.cs" />
+    <Compile Include="SolidCompliantFactory\SolidCompliantFactoryBase.cs" />
     <Compile Include="Product\ConcreteProductA.cs" />
     <Compile Include="Product\ConcreteProductB.cs" />
     <Compile Include="Factory\Creator.cs" />
