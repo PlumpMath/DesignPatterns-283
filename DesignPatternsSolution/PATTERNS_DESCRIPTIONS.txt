@@ -11,3 +11,5 @@ BRIDGE PATTERN - El patrón Bridge, también conocido como Handle/Body, es una téc
 
 FACADE PATTERN - Provide a unified interface to a set of interfaces in a subsystem. Façade defines a higher-level interface that makes the subsystem easier to use.
 	Ejemplo: Se usa mucho para servicios web; encapsular, en una sola llamada /respuesta desde el cliente, varias llamadas "internas" en el facade a los servicios más pequeños que se necesitan para el response.
+
+ADAPTER PATTERN - Convert the interface of a class into another interface clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces. These incompatible classes may come from different libraries or frameworks.
