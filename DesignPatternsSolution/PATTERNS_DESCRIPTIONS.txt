@@ -17,3 +17,15 @@ ADAPTER PATTERN - Convert the interface of a class into another interface client
 COMPOSITE PATTERN - Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
 
 PROXY - Provide a surrogate or placeholder for another object to control access to it.
+
+
+COMMAND - Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.
+	The classes and objects participating in this pattern are:
+
+	Command  - declares an interface for executing an operation
+	ConcreteCommand - defines a binding between a Receiver object and an action / implements Execute by invoking the corresponding operation(s) on Receiver
+	Client  (Main) - creates a ConcreteCommand object and sets its receiver
+	Invoker - asks the command to carry out the request
+	Receiver - knows how to perform the operations associated with carrying out the request.
+
+La intermediación de comando desacopla emisor y receptor
