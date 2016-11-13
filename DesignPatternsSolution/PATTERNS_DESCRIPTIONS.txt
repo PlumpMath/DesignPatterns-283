@@ -29,3 +29,4 @@ COMMAND - Encapsulate a request as an object, thereby letting you parameterize c
 	Receiver - knows how to perform the operations associated with carrying out the request.
 
 La intermediación de comando desacopla emisor y receptor
+
